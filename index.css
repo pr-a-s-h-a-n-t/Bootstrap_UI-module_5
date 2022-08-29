@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: ;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    /* margin: 1rem; */
+}
+
+.navigation > button {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+.navigation-items > img {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.navigation-items {
+    display: flex;
+    /* border: 1px solid blue; */
+    align-items: center;
+    /* padding: 1rem; */
+    /* margin-right: 3rem; */
+}
+
+.navigation-items-list{
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.navigation-items-list li{
+    margin: 2.5rem;
+}
+
+.navigation-items-list li+li {
+    margin: 2.5rem;
+}
+
+/* section-1 */
+
+.section-1 {
+    width: 100%;
+    height: 85vh;
+    background-image: url(./img/image2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%; 
+    text-align: center;
+    color: white;
+     
+}
+
+.section-1-elements {
+    /* border: 1px solid violet; */
+    padding-top: 13rem;
+    align-items: center;
+    height: auto;
+
+} 
+
+.section-1-elements > h2 {
+    font-size: 6rem;
+}
+
+.section-1-elements > p{
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.section-1-elements > button {
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.6rem;
+    
+}
+
+#section-1-btn {
+    background-color: black;
+    color: white;
+}
+
+/* Section-2 */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 100vh; */
+
+}
+
+.section-2 > h2 {
+    padding: 3rem;
+}
+
+.section-2 > p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    width: 60%;
+    padding: 2rem;
+}
+
+.section-2-democart {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+    /* border: 2px solid green; */
+    width: 70%;
+}
+
+.demotext > img {
+    width: 100%;
+    height:65% ;
+    border-radius: 0.5rem;
+
+}
+
+.demotext {
+    border: 1px solid red;
+    /* box-shadow: 1rem; */
+    width: 100%;
+    height: 30%;
+    margin: 1rem 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+
+}
+
+.demotext h4 {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.demotext p {
+    text-align: center;
+    /* width: 70%; */
+    font-size: 1.3rem;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    
+}
+
+/* section-3 */
+
+.section-3 {
+    background-image: url(./img/image3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.section-3 h2 {
+    padding-top: 16%;
+    margin-bottom: 3rem ;
+}
+
+.section-3 P{
+    font-size: 1.6rem;
+    width: 70%;
+    text-align: center;
+    /* border: 1px solid salmon; */
+    margin-bottom: 4rem;
+}
+
+.section-3 button {
+    padding: 1.3rem 7rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    margin-top: 2rem;
+}
+
+/* section-4 */
+
+.section-4 {
+    width: 100%;
+    /* height: 100vh; */
+    padding: 10rem;
+    /* border: 2px solid gold; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.service-container {
+
+    /* border: 1px solid black; */
+    padding: 1rem;
+    margin: 2rem;
+
+}
+
+.service-container p {
+    font-size: 1.6rem;
+    margin-left: 3rem;
+    padding: 1rem;
+    
+}
+
+.service-container i{
+    color: aqua;
+    font-size: 4rem;
+    margin: 0.5rem;
+    vertical-align: middle;
+}
+
+/* section-5 */
+
+.my-section-5 {
+    width: 100%;
+    background-color: black;
+    /* margin-top: 2rem; */
+    /* padding: 1rem; */
+
+}
+
+.section-5 {
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    padding: 2rem;
+    /* border: 1px solid violet; */
+    margin: auto;
+     
+     
+}
+
+.section-5  img {
+    width: 45%;
+    padding: 2rem;
+
+}
+
+.section-5-left {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 2rem;
+    margin: 3rem;
+    margin-top: -1rem;
+    /* width: 60% ; */
+    /* border: 1px solid rebeccapurple; */
+    /* background-color:black; */
+    color: white;
+}
+
+.section-5-left h2 {
+    width: 80%;
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-5-left button {
+    padding:1.5rem 4.5rem ;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    background-color: aqua;
+}
+
+.section-5-left p {
+    font-size: 1.5rem;
+    /* line-height: 1.5rem; */
+    /* letter-spacing: 0.15rem; */
+    width: 80%;
+}
+
+/* section-6 */
+
+.section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* vertical-align: middle; */
+    width: 100%;
+    /* height: 60vh; */
+}
+
+.section-6 h4{
+    margin: 3rem;
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.section-6 form{
+    padding: 2rem;
+    width: 100%;
+   
+}
+.section-6 input{
+    width: 35%;
+    height: 4rem;
+    margin: 1rem;
+     
+    
+} 
+
+.section-6 > form >input::placeholder{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    padding: 0.5rem;
+}
+
+
+
+.section-6 >form >button {
+    padding: 1.3rem 3rem;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+    background-color: red;
+}
+
+.section-6 .socials {
+    font-size: 3.3rem;
+    padding: 2rem;
+}
+
+
+.socials a+a {
+    margin: 2.5rem;
+}
+
+#flogo{
+    margin-right: 1.3rem;
+}
+
+
+footer {
+    background-color: goldenrod;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    /* vertical-align:baseline; */
+}
